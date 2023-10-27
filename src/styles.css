@@ -62,7 +62,6 @@
     padding-top: 100px;
     padding-right: 100px;
     padding-bottom: 70px;
-    
 }
 
 .menu a {
@@ -85,6 +84,7 @@
     padding-right: 100px;
     font-weight: 400px;
     font-size: 40px;
+    font-family: Calibri;
 }
 
 .menu .logo-text {
@@ -693,3 +693,93 @@ q {font-style: italic;}
     left: 55%;
     bottom: 40%;
 }
+
+.page-ten-container {
+    margin-top: 100px;
+}
+
+
+.custom-menu {
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.custom-logo-text {
+    position: relative;
+    right: 3%;
+    text-transform: none;
+
+    padding-right: 0;
+}
+
+.custom-menu a {
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.newsletter {
+    position: relative;
+    left: 5%;
+}
+
+
+.links, .legal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100px;
+    height: 200px;
+
+    left: 37.8%;
+    top: 20px;
+}
+
+.links a, .legal a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.links-container {
+    display: flex;
+}
+
+.legal {
+    width: 200px;
+    left: 44%;
+}
+
+.email-subscription {
+    display: flex;
+    align-items: center;
+}
+
+.input-container,
+.button-container-for-subscribe {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.email-input {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+}
+
+.subscribe-button {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+    
