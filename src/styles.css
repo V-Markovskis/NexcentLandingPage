@@ -243,7 +243,7 @@
 }
 
 /* #FF7235 - main color */
-.secondPageContainer {
+.secondPageContainer, .downloaded-container {
     background: linear-gradient(to right, #FF7235, #ffa500, #fff);
     color: #000;
     height: 75.5vh;
@@ -455,7 +455,7 @@
 }
 
 /* SEVENTH PAGE */
-.pageSevenTitle, .page-eight-title {
+.pageSevenTitle, .page-eight-title, .downloaded-title {
     margin-top: 200px;
     text-align: center;
     font-size: 80px;
@@ -569,16 +569,18 @@ button.get-button:hover {
     width: 600px;  
 }
 
-.page-eight-container {
+.page-eight-container, .downloaded-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* Slideshow container */
 .slideshow-container {
     position: relative;
     background: #f1f1f1;
+    margin-top: 50px;
 }
 
 /* Slides */
@@ -648,4 +650,46 @@ q {font-style: italic;}
 
 .ceo-class {
     opacity: 50%;
+}
+
+
+
+/* PAGE NINE */
+.downloaded-title {
+    width: 1000px;
+    color: white;
+}
+
+.downloaded-paragraph {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.custom-demo-button {
+    background-color: #FFFFFF;
+    color: #FFA500;
+}
+
+.custom-arrow-down {
+    border-top: 5px solid #FFA500;
+}
+
+.page-nine-picture-one, .page-nine-picture-two {
+    position: relative;
+}
+
+.image-container-downloaded {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-nine-picture-one {
+    right: 55%;
+    bottom: 40%;
+}
+
+.page-nine-picture-two {
+    left: 55%;
+    bottom: 40%;
 }
