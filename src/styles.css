@@ -758,15 +758,19 @@ q {font-style: italic;}
     left: 44%;
 }
 
+.newsletter-container {
+    position: relative;
+    left: 50.2%;
+    top: 15px;
+}
+
 .email-subscription {
     display: flex;
     align-items: center;
-}
-
-.input-container,
-.button-container-for-subscribe {
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
 }
 
 .email-input {
@@ -781,5 +785,59 @@ q {font-style: italic;}
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.people-subscribed {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    opacity: 50%;
+}
+
+.no-spam-warning {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    opacity: 50%;
+}
+
+.horizontal-line {
+    position: relative;
+    border-bottom: 1px solid #000;
+    width: 64%;
+    left: 20%;
+    margin-top: 40px;
+    opacity: 20%;
+}
+
+.bottom-text-container {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 378px;
+    margin-bottom: 100px;
+}
+
+.privacy-terms, .contact-us, .copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.privacy-terms {
+    padding-right: 30px;
+}
+
+.contact-us {
+    padding-right: 300px;
+}
+
+
+.copyright {
+    padding-right: 440px;
 }
     
