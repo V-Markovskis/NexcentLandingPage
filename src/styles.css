@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+/* PAGE ONE */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nextcent {
+    font-size: 40px;
+}
+
+.container-one, .container-two {
+    max-width: 1440px;
+    margin: 80px auto;
+}
+
+.container-two { 
+    margin-top: 120px;
+}
+
+.menu-container, .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 30px;
+}
+
+.sign-up-button, .login-button, .register-button {
+    background-color: #4CAF4F;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.register-button {
+    padding: 15px 30px;
+}
+
+.login-button {
+    background-color: transparent;
+    color: #4CAF4F;
+    border-radius: 0;
+    padding-right: 14px;
+}
+
+.lessons-and-insights {
+    color: #4D4D4D;
+    font-size: 60px
+}
+
+.years-green {
+    color: #4CAF4F;
+}
+
+.where-to-grow {
+    color: grey;
+    font-weight: normal;
+}
+
+.intro-container {
+    padding-top: 50px;
+}
+
